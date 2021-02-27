@@ -323,3 +323,47 @@ p {
 #img-h1, #img-p {
     text-shadow: 2px 1px 4px #000;
 }
+
+.home-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background: #000;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+    color: #FFF;
+}
+
+.footer-logo {
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+.footer-logo:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.copyright h3 {
+    margin-top: 15px;
+}
+
+.footer-social {
+    font-size: 35px;
+}
+
+.footer-social a {
+    padding-left: 10px;
+    color: #FFF;
+}
