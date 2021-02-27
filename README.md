@@ -1,1 +1,3 @@
 Este projeto está em desenvolvimento...
+
+Este é meu site para divulgar o alguel do meu sítio para festas, feriados e eventos.
