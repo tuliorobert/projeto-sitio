@@ -70,7 +70,7 @@ p {
 .header-area {
   position: relative;
   height: 100vh;
-  background: url(https://2.bp.blogspot.com/-0hpj0Wd6FUM/U31l248nBwI/AAAAAAAAACE/-SU1QfjUp7U/s1600/FRENTE_CASA.jpg);
+  background: url(https://i.ibb.co/LQc6HWk/sitio.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repear;
@@ -327,6 +327,7 @@ p {
 .home-text {
     text-align: center;
     margin-bottom: 20px;
+    padding: 0;
 }
 
 .home-icon {
@@ -366,4 +367,8 @@ p {
 .footer-social a {
     padding-left: 10px;
     color: #FFF;
+}
+
+.home-h3 {
+  font-weight: bold;
 }
