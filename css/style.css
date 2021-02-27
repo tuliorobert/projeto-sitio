@@ -324,6 +324,10 @@ p {
     text-shadow: 2px 1px 4px #000;
 }
 
+#content {
+  background: rgba(0, 0, 0, 0.021);
+}
+
 .home-text {
     text-align: center;
     margin-bottom: 20px;
