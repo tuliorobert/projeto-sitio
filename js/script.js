@@ -1,4 +1,4 @@
-// Nav Scrolling
+// Nav Fix on Scrolling
 
 jQuery(function($) {
     $(window).on('scroll', function() {

@@ -15,36 +15,29 @@
 </head>
 
 <body>
-    <header class="header-area overlay">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <a href="#" class="navbar-brand"><img src="img/Sítio do Barão.png" alt="logo" width="40" height="40">
-                    Sítio do Barão</a>
-
-                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                </button>
-
-                <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li><a href="#" class="nav-item nav-link active" id="inicio">Início</a></li>
-                        <li><a href="#" class="nav-item nav-link">Galeria</a></li>
-                        <li><a href="#contact" class="nav-item nav-link" id="contato">Contato</a></li>
-                    </ul>
+    <header class="header-area">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <a href="#" class="navbar-brand"><img src="img/Sítio do Barão.png" alt="logo" width="50" height="50"> Sítio do Barão</a>
+            <button class="navbar-toggler" type="button" data-target="#navMenu" data-toggle="collapse" aria-controls="navMenu">
+                <span class="navbar-toggler-icon" id="togglerIcon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active" id="inicio">Início</a>
+                    <a href="#" class="nav-item nav-link">Fotos</a>
+                    <a href="#contact" class="nav-item nav-link" id="contato">Contato</a>
                 </div>
             </div>
         </nav>
 
         <div class="banner">
-            <div class="container">
-                <h1 id="img-h1">Um lugar para fugir do seu cotidiano</h1>
-                <p id="img-p">Se precisa de um lugar para passar o feriado, fazer uma festa ou apenas fugir da
-                    rotina, você acabou de encontrar!</p>
-                <a href="#contact" class="button button-primary">Agende já!</a>
+            <div class="container" style="font-weight: bold;">
+                <h1>Um lugar para fugir do cotidiano...</h1>
+                <p>Se estava procurando um lugar para passar o feriado, fazer uma festa ou apenas fugir da rotina, você acabou de encontrar!.</p>
+                <a href="#contact" class="button button-primary">Reserve Já!</a>
             </div>
         </div>
+
     </header>
 
     <main>
@@ -76,30 +69,26 @@
             </div>
         </section>
 
-        <!-- Separating Sections -->
-        <br>
-        <br>
-        <br>
-        <!-- Separating Sections -->
+        <br><br><br><br>
 
         <section id="vertical-carousel">
             <div class="pic-ctn">
                 <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.47.jpeg" alt="Piscina" class="pic" width="350"
-                    height="450">
+                    height="550">
                 <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.48.jpeg" alt="Campo" class="pic" width="350"
-                    height="450">
+                    height="550">
                 <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.51.jpeg" alt="Quintal" class="pic" width="350"
-                    height="450">
+                    height="550">
                 <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.52.jpeg" alt="Piscina" class="pic" width="350"
-                    height="450">
+                    height="550">
                 <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.53.jpeg" alt="Varanda" class="pic" width="350"
-                    height="450">
+                    height="550">
                 <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.54.jpeg" alt="Interior" class="pic" width="350"
-                    height="450">
+                    height="550">
                 <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.55.jpeg" alt="Quarto" class="pic" width="350"
-                    height="450">
+                    height="550">
             </div>
-            <br>
+            <br><br><br><br><br><br>
             <div class="col-md-6 carousel-text">
                 <h3>O lugar ideal...</h3>
                 <br>
@@ -114,6 +103,7 @@
         </section>
 
         <section class="section pb-5 contact" id="contact">
+            <br><br><br>
             <h2 class="section-heading h1 pt-4" style="font-weight: bold;">Agende Já!</h2>
             <p class="section-description pb-4">Coloque seus dados aqui e entraremos em contato com você o mais breve
                 possível!</p>
@@ -121,11 +111,6 @@
                 <div class="col-lg-5 mb-4">
                     <div class="card">
                         <div class="card-body">
-                            <div class="form-header blue accent-1">
-                                <h3 style="font-weight: bold;"><i class="fas fa-envelope"></i> Insira seus dados</h3>
-                            </div>
-                            <p>Vamos entrar em contato o mais rápido possível!</p>
-                            <br>
                             <div class="md-form">
                                 <i class="fas fa-user prefix grey-text"></i>
                                 <label for="form-name">Seu Nome</label>
