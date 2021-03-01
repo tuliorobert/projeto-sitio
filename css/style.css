@@ -249,14 +249,29 @@ html {
   padding-bottom:56.25%;
   position:relative;
   height:0;
-  }
+}
   .map-container-6 iframe{
   left:0;
   top:0;
   height:100%;
   width:100%;
   position:absolute;
-  }
+}
+
+.toTop {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99999;
+}
+
+.atvd {
+  visibility: visible;
+  opacity: 1;
+  transition: linear 600ms;
+}
 
 .footer {
     background: #000;

@@ -104,50 +104,52 @@
 
         <section class="section pb-5 contact" id="contact">
             <br><br><br>
-            <h2 class="section-heading h1 pt-4" style="font-weight: bold;">Agende Já!</h2>
-            <p class="section-description pb-4">Coloque seus dados aqui e entraremos em contato com você o mais breve
-                possível!</p>
-            <div class="row">
-                <div class="col-lg-5 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="md-form">
-                                <i class="fas fa-user prefix grey-text"></i>
-                                <label for="form-name">Seu Nome</label>
-                                <input type="text" id="form-name" class="form-control"
-                                    placeholder="Digite seu nome completo">
-                            </div>
-                            <div class="md-form">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <label for="form-email">Seu telefone</label>
-                                <input type="tel" id="form-email" class="form-control" placeholder="(xx) xxxxx-xxxx">
-                            </div>
-                            <div class="md-form">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                <label for="form-Subject">Pra qual dia quer agendar?</label>
-                                <input type="date" id="form-Subject" class="form-control">
-                            </div>
-                            <div class="md-form">
-                                <i class="fa fa-book" aria-hidden="true"></i>
-                                <label for="form-days">Quantos dias?</label>
-                                <select name="Days" id="days" style="display: block;">
-                                    <option value="1">1 dia</option>
-                                    <option value="2">2 dias</option>
-                                    <option value="3+">3 ou mais dias</option>
-                                </select>
-                            </div>
-                            <div class="md-form">
-                                <i class="fas fa-pencil-alt prefix grey-text"></i>
-                                <label for="form-text">Finalidade</label>
-                                <textarea id="form-text" class="form-control md-textarea" rows="3"
-                                    placeholder="Quer passar um feriado? Precisa alugar para um evento? Conte para nós!"></textarea>
-                            </div>
-                            <div class="text-center mt-4">
-                                <button class="btn btn-light-blue">Enviar</button>
+            <form>
+                <h2 class="section-heading h1 pt-4" style="font-weight: bold;">Agende Já!</h2>
+                <p class="section-description pb-4">Coloque seus dados aqui e entraremos em contato com você o mais breve
+                    possível!</p>
+                <div class="row">
+                    <div class="col-lg-5 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="md-form">
+                                    <i class="fas fa-user prefix grey-text"></i>
+                                    <label for="form-name">Seu Nome</label>
+                                    <input type="text" id="form-name" class="form-control"
+                                        placeholder="Digite seu nome completo">
+                                </div>
+                                <div class="md-form">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <label for="form-email">Seu telefone</label>
+                                    <input type="tel" id="form-email" class="form-control" placeholder="(xx) xxxxx-xxxx">
+                                </div>
+                                <div class="md-form">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    <label for="form-Subject">Pra qual dia quer agendar?</label>
+                                    <input type="date" id="form-Subject" class="form-control">
+                                </div>
+                                <div class="md-form">
+                                    <i class="fa fa-book" aria-hidden="true"></i>
+                                    <label for="form-days">Quantos dias?</label>
+                                    <select name="Days" id="days" style="display: block;">
+                                        <option value="1">1 dia</option>
+                                        <option value="2">2 dias</option>
+                                        <option value="3+">3 ou mais dias</option>
+                                    </select>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                    <label for="form-text">Finalidade</label>
+                                    <textarea id="form-text" class="form-control md-textarea" rows="3"
+                                        placeholder="Quer passar um feriado? Precisa alugar para um evento? Conte para nós!"></textarea>
+                                </div>
+                                <div class="text-center mt-4">
+                                    <button class="btn btn-light-blue">Enviar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+            </form>
                 <div class="col-lg-7">
                     <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 350px">
                         <iframe
@@ -173,7 +175,7 @@
                 </div>
             </div>
         </section>
-
+        <a href="#"><img src="img/external-content.duckduckgo.com.png" alt="backToTop" onclick="toTop" width="50" height="50" class="toTop"></a>
     </main>
 
     <footer class="footer">
