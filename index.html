@@ -15,36 +15,29 @@
 </head>
 
 <body>
-    <header class="header-area overlay">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <a href="#" class="navbar-brand"><img src="img/Sítio do Barão.png" alt="logo" width="40" height="40">
-                    Sítio do Barão</a>
-
-                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                </button>
-
-                <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li><a href="#" class="nav-item nav-link active">Início</a></li>
-                        <li><a href="#" class="nav-item nav-link">Galeria</a></li>
-                        <li><a href="#" class="nav-item nav-link">Contato</a></li>
-                    </ul>
+    <header class="header-area">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <a href="#" class="navbar-brand"><img src="img/Sítio do Barão.png" alt="logo" width="50" height="50"> Sítio do Barão</a>
+            <button class="navbar-toggler" type="button" data-target="#navMenu" data-toggle="collapse" aria-controls="navMenu">
+                <span class="navbar-toggler-icon" id="togglerIcon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active" id="inicio">Início</a>
+                    <a href="https://www.instagram.com/sitiodobaraomaua/" target="_blank" class="nav-item nav-link">Fotos</a>
+                    <a href="#contact" class="nav-item nav-link" id="contato">Contato</a>
                 </div>
             </div>
         </nav>
 
         <div class="banner">
-            <div class="container">
-                <h1 id="img-h1">Um lugar para fugir do seu cotidiano</h1>
-                <p id="img-p">Se precisa de um lugar para passar o feriado, fazer uma festa ou apenas fugir da
-                    rotina, você acabou de encontrar!</p>
-                <a href="#content" class="button button-primary">Agende já!</a>
+            <div class="container" style="font-weight: bold;">
+                <h1>Um lugar para fugir do cotidiano...</h1>
+                <p>Se estava procurando um lugar para passar o feriado, fazer uma festa ou apenas fugir da rotina, você acabou de encontrar!.</p>
+                <a href="#contact" class="button button-primary">Reserve Já!</a>
             </div>
         </div>
+
     </header>
 
     <main>
@@ -54,51 +47,131 @@
                     <div class="col-md-4 home-text">
                         <i class="fas fa-swimming-pool home-icon"></i>
                         <h3 class="home-h3">Fugindo do calor?</h3>
-                        <p>Que tal curtir uma piscina enquanto ouve um sonzinho? Aqui você encontrará a piscina limpinha 
-                            e pronta para você e sua família se refrescarem enquanto tomam uma cervejinha ou um refrigerante gelado.</p>
+                        <p>Que tal curtir uma piscina enquanto ouve um sonzinho? Aqui você encontrará a piscina limpinha
+                            e pronta para você e sua família se refrescarem enquanto tomam uma cervejinha ou um
+                            refrigerante gelado.</p>
                     </div>
                     <div class="col-md-4 home-text">
                         <i class="fas fa-utensils home-icon"></i>
                         <h3 class="home-h3">Prepare aquele rango!</h3>
                         <p>Temos um fogão para fazer um almoço digno de um feriado e um freezer para guardar suas
-                            bebidas e mantê-las sempre geladas. Também temos uma churrasqueira caso queira assar 
+                            bebidas e mantê-las sempre geladas. Também temos uma churrasqueira caso queira assar
                             aquela carne de respeito.</p>
                     </div>
                     <div class="col-md-4 home-text">
                         <i class="far fa-futbol home-icon"></i>
                         <h3 class="home-h3">Solte o atleta que há dentro de você!</h3>
                         <p>Aproveite o campo para bater aquela pelada com os amigos, ou deixar a criançada se
-                            divertir até gastar toda a energia acumulada. Caso esteja de noite, não se preocupe, 
+                            divertir até gastar toda a energia acumulada. Caso esteja de noite, não se preocupe,
                             temos um refletor para que a diversão não pare até o cansaço de fato chegar.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Separating Sections -->
-        <br>
-        <br>
-        <br>
-        <!-- Separating Sections -->
+        <br><br><br><br>
 
         <section id="vertical-carousel">
             <div class="pic-ctn">
-                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.47.jpeg" alt="" class="pic" width="350" height="450">
-                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.48.jpeg" alt="" class="pic" width="350" height="450">
-                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.51.jpeg" alt="" class="pic" width="350" height="450">
-                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.52.jpeg" alt="" class="pic" width="350" height="450">
-                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.53.jpeg" alt="" class="pic" width="350" height="450">
-                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.54.jpeg" alt="" class="pic" width="350" height="450">
-                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.55.jpeg" alt="" class="pic" width="350" height="450">
-              </div>
-              <div class="col-md-6 carousel-text">
-                  <h3>O lugar ideal...</h3>
-                  <br>
-                  <p>Nada como um lugar para descansar em um ambiente totalmente natural, bem silencioso e longe de todos os problemas
-                    do cotidiano. As vezes nós queremos apenas fugir um pouco do stress diário e curtir o presente, respirando
-                    o ar puro e desfrutando da beleza que o mundo tem a oferecer. O Sítio do Barão oferece esse espacinho para
+                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.47.jpeg" alt="Piscina" class="pic" width="350"
+                    height="550">
+                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.48.jpeg" alt="Campo" class="pic" width="350"
+                    height="550">
+                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.51.jpeg" alt="Quintal" class="pic" width="350"
+                    height="550">
+                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.52.jpeg" alt="Piscina" class="pic" width="350"
+                    height="550">
+                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.53.jpeg" alt="Varanda" class="pic" width="350"
+                    height="550">
+                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.54.jpeg" alt="Interior" class="pic" width="350"
+                    height="550">
+                <img src="img/gallery/WhatsApp Image 2021-02-24 at 21.10.55.jpeg" alt="Quarto" class="pic" width="350"
+                    height="550">
+            </div>
+            <br><br><br><br><br><br>
+            <div class="col-md-6 carousel-text">
+                <h3>O lugar ideal...</h3>
+                <br>
+                <p>Nada como um lugar para descansar em um ambiente totalmente natural, bem silencioso e longe de todos
+                    os problemas
+                    do cotidiano. As vezes nós queremos apenas fugir um pouco do stress diário e curtir o presente,
+                    respirando
+                    o ar puro e desfrutando da beleza que o mundo tem a oferecer. O Sítio do Barão oferece esse
+                    espacinho para
                     que você se sinta completamente renovado.</p>
-              </div>
+            </div>
+        </section>
+
+        <section class="section pb-5 contact" id="contact">
+            <br><br><br>
+            <h2 class="section-heading h1 pt-4" style="font-weight: bold;">Agende Já!</h2>
+            <p class="section-description pb-4">Coloque seus dados aqui e entraremos em contato com você o mais breve
+                possível!</p>
+            <div class="row">
+                <div class="col-lg-5 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="md-form">
+                                <i class="fas fa-user prefix grey-text"></i>
+                                <label for="form-name">Seu Nome</label>
+                                <input type="text" id="form-name" class="form-control"
+                                    placeholder="Digite seu nome completo">
+                            </div>
+                            <div class="md-form">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <label for="form-email">Seu telefone</label>
+                                <input type="tel" id="form-email" class="form-control" placeholder="(xx) xxxxx-xxxx">
+                            </div>
+                            <div class="md-form">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                <label for="form-Subject">Pra qual dia quer agendar?</label>
+                                <input type="date" id="form-Subject" class="form-control">
+                            </div>
+                            <div class="md-form">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                                <label for="form-days">Quantos dias?</label>
+                                <select name="Days" id="days" style="display: block;">
+                                    <option value="1">1 dia</option>
+                                    <option value="2">2 dias</option>
+                                    <option value="3+">3 ou mais dias</option>
+                                </select>
+                            </div>
+                            <div class="md-form">
+                                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                <label for="form-text">Finalidade</label>
+                                <textarea id="form-text" class="form-control md-textarea" rows="3"
+                                    placeholder="Quer passar um feriado? Precisa alugar para um evento? Conte para nós!"></textarea>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button class="btn btn-light-blue">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.7176316432974!2d-43.15090382872117!3d-22.698541110681685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999fb0fc8aa281%3A0xcdf5e73c206a9b33!2sR.%20Uni%C3%A3o%2C%2039%20-%20Jardim%20da%20Prata%2C%20Mag%C3%A9%20-%20RJ%2C%2025900-725%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1614567188024!5m2!1spt-BR!2sus"
+                            frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <br>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                            <p>Rua União, 39</p>
+                            <p>Guida de Pacobaíba</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                            <p>(21) 97111-8598</p>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+                            <p>contato@sitiodobarao.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>

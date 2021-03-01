@@ -1,3 +1,5 @@
+// Nav Fix on Scrolling
+
 jQuery(function($) {
     $(window).on('scroll', function() {
 		if ($(this).scrollTop() >= 200) {
@@ -30,4 +32,19 @@ jQuery(function($) {
 	$(window).on('resize', adjustNav);
 	
 	adjustNav();
+});
+
+// Change active link on nav
+
+var Inicio = document.getElementById('inicio');
+var Contato = document.getElementById('contato');
+
+Inicio.addEventListener('click', function(){
+	Contato.className = 'nav-item nav-link';
+	Inicio.className = 'nav-item nav-link active';
+});
+
+Contato.addEventListener('click', function(){
+	Inicio.className = 'nav-item nav-link';
+	Contato.className = 'nav-item nav-link active';
 });
