@@ -344,6 +344,53 @@ p {
   margin-left: 8px;
 }
 
+.contact {
+  padding: 0 20%;
+  background: rgba(0, 0, 0, 0.021);
+}
+
+.contact i {
+  margin: 15px 0 15px 5px;
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.600);
+}
+
+.contact label {
+  margin-left: 5px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.700);
+}
+
+.contact input {
+  font-size: 18px;
+}
+
+.contact textarea {
+  font-size: 18px;
+}
+
+.contact button {
+  background: rgb(0 , 200 , 255);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
 .footer {
     background: #000;
 }
@@ -380,4 +427,12 @@ p {
 
 .home-h3 {
   font-weight: bold;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+  .contact {
+    padding: 0;
+  }
 }
