@@ -199,6 +199,10 @@ html {
   font-size: 50px;
 }
 
+#vertical-carousel p {
+  font-size: 20px;
+}
+
 .contact {
   padding: 0 20%;
   background: rgba(0, 0, 0, 0.021);
@@ -271,13 +275,13 @@ html {
     margin-top: 15px;
 }
 
-.footer-social {
-    font-size: 35px;
+.footer h5 {
+  margin: 20px 0 58px 0;
 }
 
-.footer-social a {
-    padding-left: 10px;
-    color: #FFF;
+.footer p {
+  padding: 0;
+  margin: 0;
 }
 
 .home-h3 {
