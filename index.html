@@ -29,9 +29,9 @@
 
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li><a href="#" class="nav-item nav-link active">Início</a></li>
+                        <li><a href="#" class="nav-item nav-link active" id="inicio">Início</a></li>
                         <li><a href="#" class="nav-item nav-link">Galeria</a></li>
-                        <li><a href="#contact" class="nav-item nav-link">Contato</a></li>
+                        <li><a href="#contact" class="nav-item nav-link" id="contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                 <h1 id="img-h1">Um lugar para fugir do seu cotidiano</h1>
                 <p id="img-p">Se precisa de um lugar para passar o feriado, fazer uma festa ou apenas fugir da
                     rotina, você acabou de encontrar!</p>
-                <a href="#content" class="button button-primary">Agende já!</a>
+                <a href="#contact" class="button button-primary">Agende já!</a>
             </div>
         </div>
     </header>
@@ -113,52 +113,35 @@
             </div>
         </section>
 
-        <!--Section: Contact v.1-->
         <section class="section pb-5 contact" id="contact">
-
-            <!--Section heading-->
             <h2 class="section-heading h1 pt-4" style="font-weight: bold;">Agende Já!</h2>
-            <!--Section description-->
             <p class="section-description pb-4">Coloque seus dados aqui e entraremos em contato com você o mais breve
                 possível!</p>
-
             <div class="row">
-
-                <!--Grid column-->
                 <div class="col-lg-5 mb-4">
-
-                    <!--Form with header-->
                     <div class="card">
-
                         <div class="card-body">
-                            <!--Header-->
                             <div class="form-header blue accent-1">
                                 <h3 style="font-weight: bold;"><i class="fas fa-envelope"></i> Insira seus dados</h3>
                             </div>
-
                             <p>Vamos entrar em contato o mais rápido possível!</p>
                             <br>
-
-                            <!--Body-->
                             <div class="md-form">
                                 <i class="fas fa-user prefix grey-text"></i>
                                 <label for="form-name">Seu Nome</label>
                                 <input type="text" id="form-name" class="form-control"
                                     placeholder="Digite seu nome completo">
                             </div>
-
                             <div class="md-form">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 <label for="form-email">Seu telefone</label>
                                 <input type="tel" id="form-email" class="form-control" placeholder="(xx) xxxxx-xxxx">
                             </div>
-
                             <div class="md-form">
                                 <i class="fa fa-calendar" aria-hidden="true"></i>
                                 <label for="form-Subject">Pra qual dia quer agendar?</label>
                                 <input type="date" id="form-Subject" class="form-control">
                             </div>
-
                             <div class="md-form">
                                 <i class="fa fa-book" aria-hidden="true"></i>
                                 <label for="form-days">Quantos dias?</label>
@@ -168,64 +151,43 @@
                                     <option value="3+">3 ou mais dias</option>
                                 </select>
                             </div>
-
                             <div class="md-form">
                                 <i class="fas fa-pencil-alt prefix grey-text"></i>
                                 <label for="form-text">Finalidade</label>
                                 <textarea id="form-text" class="form-control md-textarea" rows="3"
                                     placeholder="Quer passar um feriado? Precisa alugar para um evento? Conte para nós!"></textarea>
                             </div>
-
                             <div class="text-center mt-4">
                                 <button class="btn btn-light-blue">Enviar</button>
                             </div>
-
                         </div>
-
                     </div>
-                    <!--Form with header-->
-
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
                 <div class="col-lg-7">
-
-                    <!--Google map-->
                     <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.7176316432974!2d-43.15090382872117!3d-22.698541110681685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999fb0fc8aa281%3A0xcdf5e73c206a9b33!2sR.%20Uni%C3%A3o%2C%2039%20-%20Jardim%20da%20Prata%2C%20Mag%C3%A9%20-%20RJ%2C%2025900-725%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1614567188024!5m2!1spt-BR!2sus"
-                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                            loading="lazy"></iframe>
+                            frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
-
                     <br>
-                    <!--Buttons-->
                     <div class="row text-center">
                         <div class="col-md-4">
                             <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
                             <p>Rua União, 39</p>
                             <p>Guida de Pacobaíba</p>
                         </div>
-
                         <div class="col-md-4">
                             <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
                             <p>(21) 97111-8598</p>
                         </div>
-
                         <div class="col-md-4">
                             <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
                             <p>contato@sitiodobarao.com</p>
                         </div>
                     </div>
-
                 </div>
-                <!--Grid column-->
-
             </div>
-
         </section>
-        <!--Section: Contact v.1-->
 
     </main>
 
