@@ -230,10 +230,18 @@ html {
 
 .contact button {
   background: rgb(0 , 200 , 255);
+  color: #fff;
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 13px;
   font-weight: bold;
+  display: inline-block;
+}
+
+.contact button:hover {
+  background: rgb(0 , 100 , 255);
+  color: #fff;
+  transition: linear 600ms;
 }
 
 .map-container-6{
