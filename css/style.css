@@ -199,6 +199,10 @@ html {
   font-size: 50px;
 }
 
+#vertical-carousel p {
+  font-size: 20px;
+}
+
 .contact {
   padding: 0 20%;
   background: rgba(0, 0, 0, 0.021);
@@ -226,10 +230,18 @@ html {
 
 .contact button {
   background: rgb(0 , 200 , 255);
+  color: #fff;
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 13px;
   font-weight: bold;
+  display: inline-block;
+}
+
+.contact button:hover {
+  background: rgb(0 , 100 , 255);
+  color: #fff;
+  transition: linear 600ms;
 }
 
 .map-container-6{
@@ -237,14 +249,29 @@ html {
   padding-bottom:56.25%;
   position:relative;
   height:0;
-  }
+}
   .map-container-6 iframe{
   left:0;
   top:0;
   height:100%;
   width:100%;
   position:absolute;
-  }
+}
+
+.toTop {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99999;
+}
+
+.atvd {
+  visibility: visible;
+  opacity: 1;
+  transition: linear 600ms;
+}
 
 .footer {
     background: #000;
@@ -271,13 +298,13 @@ html {
     margin-top: 15px;
 }
 
-.footer-social {
-    font-size: 35px;
+.footer h5 {
+  margin: 20px 0 58px 0;
 }
 
-.footer-social a {
-    padding-left: 10px;
-    color: #FFF;
+.footer p {
+  padding: 0;
+  margin: 0;
 }
 
 .home-h3 {

@@ -38,6 +38,8 @@ jQuery(function($) {
 
 var Inicio = document.getElementById('inicio');
 var Contato = document.getElementById('contato');
+var priButton = document.querySelector('.button-primary');
+var topButton = document.querySelector('.toTop');
 
 Inicio.addEventListener('click', function(){
 	Contato.className = 'nav-item nav-link';
@@ -47,4 +49,22 @@ Inicio.addEventListener('click', function(){
 Contato.addEventListener('click', function(){
 	Inicio.className = 'nav-item nav-link';
 	Contato.className = 'nav-item nav-link active';
+});
+
+priButton.addEventListener('click', function(){
+	Inicio.className = 'nav-item nav-link';
+	Contato.className = 'nav-item nav-link active';
+});
+
+topButton.addEventListener('click', function(){
+	Contato.className = 'nav-item nav-link';
+	Inicio.className = 'nav-item nav-link active';
+});
+
+// Back to Top button
+
+window.addEventListener('scroll', function(){
+	var topButton = document.querySelector('.toTop');
+
+	topButton.classList.toggle('atvd', window.scrollY > 500);
 });
