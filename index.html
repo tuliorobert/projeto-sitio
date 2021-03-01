@@ -104,7 +104,7 @@
 
         <section class="section pb-5 contact" id="contact">
             <br><br><br>
-            <form>
+            <form action="https://submit-form.com/3TP58cJL">
                 <h2 class="section-heading h1 pt-4" style="font-weight: bold;">Agende Já!</h2>
                 <p class="section-description pb-4">Coloque seus dados aqui e entraremos em contato com você o mais breve
                     possível!</p>
@@ -116,35 +116,35 @@
                                     <i class="fas fa-user prefix grey-text"></i>
                                     <label for="form-name">Seu Nome</label>
                                     <input type="text" id="form-name" class="form-control"
-                                        placeholder="Digite seu nome completo">
+                                        placeholder="Digite seu nome completo" name="Nome" required="">
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <label for="form-email">Seu telefone</label>
-                                    <input type="tel" id="form-email" class="form-control" placeholder="(xx) xxxxx-xxxx">
+                                    <label for="form-tel">Seu telefone</label>
+                                    <input type="tel" name="Telefone" id="form-tel" class="form-control" placeholder="(xx) xxxxx-xxxx" required="">
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-calendar" aria-hidden="true"></i>
                                     <label for="form-Subject">Pra qual dia quer agendar?</label>
-                                    <input type="date" id="form-Subject" class="form-control">
+                                    <input type="date" id="form-Subject" class="form-control" required="" name="Dia">
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-book" aria-hidden="true"></i>
                                     <label for="form-days">Quantos dias?</label>
-                                    <select name="Days" id="days" style="display: block;">
+                                    <select name="Quantos Dias?" id="days" style="display: block;">
                                         <option value="1">1 dia</option>
                                         <option value="2">2 dias</option>
-                                        <option value="3+">3 ou mais dias</option>
+                                        <option value="3 ou mais">3 ou mais dias</option>
                                     </select>
                                 </div>
                                 <div class="md-form">
                                     <i class="fas fa-pencil-alt prefix grey-text"></i>
                                     <label for="form-text">Finalidade</label>
                                     <textarea id="form-text" class="form-control md-textarea" rows="3"
-                                        placeholder="Quer passar um feriado? Precisa alugar para um evento? Conte para nós!"></textarea>
+                                        placeholder="Quer passar um feriado? Precisa alugar para um evento? Conte para nós!" name="Finalidade" required=""></textarea>
                                 </div>
                                 <div class="text-center mt-4">
-                                    <button class="btn btn-light-blue">Enviar</button>
+                                    <button class="btn btn-light-blue" type="submit">Enviar</button>
                                 </div>
                             </div>
                         </div>
